@@ -9,7 +9,7 @@
 .img1{
   margin-right: 140px;
   margin-top: 50px;
-  width: 600px;
+  width: 500px;
 }
 
 .text2{
@@ -41,6 +41,7 @@
   margin-top: 30px;
   margin-left: -117px;
   width: 90px;
+  align-items: center;
 }
 
 .image-container p{
