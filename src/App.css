@@ -7,7 +7,6 @@
 }
 
 .img1{
-  margin-right: 140px;
   margin-top: 50px;
 }
 
@@ -21,7 +20,7 @@
   width:10%;
   border-width: 10px;
   margin: auto;
-  color: orangered;
+  color: rgb(240, 13, 13);
 }
 
 .images {

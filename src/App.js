@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <div className="row">
         <div className="col-md-6">
           <div className='text1 rounded float-start blue-text'>
@@ -56,13 +56,6 @@ function App() {
               <img className='img-fluid' src='pictures/orange.png' alt="img" />
               <img className='center-icon' src='icons/City Bus.png' alt="icon" />
               <p>Outdoor educational trips</p>
-            </div>
-          </div>
-          <div className="col-2 images">
-            <div className="image-container">
-              <img className='img-fluid' src='pictures/purple.png' alt="img" />
-              <img className='center-icon' src='icons/Airport.png' alt="icon" />
-              <p>Overseas Cultural trips</p>
             </div>
           </div>
         </div>
