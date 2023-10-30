@@ -5,15 +5,15 @@ function App() {
   return (
     <div className="App">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-12 col-sm-6 col-md-6">
           <div className='text1 rounded float-start blue-text'>
             It is in a reassuring setting and a stimulating educational environment that young students are invited to develop their curiosity, open up to the world and acquire the first educational foundations. A dynamic team of teachers wishes to transmit the taste of knowledge to children, in an atmosphere of respect, trust, and simplicity.<br /><br />
             We encourage students to give the best of themselves while taking into account their starting point and ensuring that they can thrive intellectually, physically, and morally.<br />
             Throughout the year, the diversity of educational projects and activities allows our students to develop their autonomy, self-control, and sense of endeavor!
           </div>
         </div>
-        <div className="col-md-6">
-          <img className='img1 rounded float-end' src='pictures/Img1.png' alt="img" />
+        <div className="col-12 col-sm-6 col-md-6">
+        <img className='img1 img-fluid rounded float-end' src='pictures/Img1.png' alt="img" />
         </div>
       </div>
 
