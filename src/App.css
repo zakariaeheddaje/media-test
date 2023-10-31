@@ -1,7 +1,7 @@
 .text1{
   margin-left: 120px;
   margin-top: 50px;
-  color: rgb(33, 33, 148);
+  color: #282896;
   font-size: 18px;
   text-align: justify;
 }
@@ -13,14 +13,23 @@
 .text2{
   text-align: center;
   margin-top: 10px;
-  color: rgb(40, 40, 150);
+  color: #282896;
 }
 
-.line{
+.line1{
   width:10%;
   border-width: 10px;
   margin: auto;
   color: rgb(240, 13, 13);
+  opacity: 1;
+}
+
+.line2{
+  width:18%;
+  border-width: 10px;
+  margin: auto;
+  color: rgb(240, 13, 13);
+  opacity: 1;
 }
 
 .images {
@@ -28,27 +37,52 @@
 }
 
 
-.image-gallery{
+.image-gallery {
   margin-top: 20px;
   margin-left: 200px;
   margin-right: 200px;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 120px; 
+  width: 120px;
+}
+.green{
+  background-color: #00FFBF;
+
+}
+.yellow{
+  background-color: #FFBF00;
+}
+
+.red{
+  background-color: #FF0800;
+}
+
+.blue{
+  background-color: #00B9E8;
+}
+
+.orange{
+  background-color: #ffa500;
+}
+
+.purple{
+  background-color: #9966CC;
+}
 .center-icon {
-  position: absolute;
-  margin-top: 30px;
-  margin-left: -117px;
-  width: 90px;
-  align-items: center;
+  max-width: 100%;
 }
 
-.image-container p{
+.para-container {
   text-align: center;
-  margin-left: 5px;
-  margin-right: 35px;
-  color: rgb(36, 36, 167);
+  font-size: medium;
+  margin-top: 10px;
+  color: #282896;
 }
-
 
 @media (max-width: 768px) {
   .blue-text {
