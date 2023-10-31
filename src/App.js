@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <Container>
+    <Container className="container">
       <div className="row">
         <div className="col-md-6">
           <p className='text1 rounded float-start blue-text'>
@@ -15,7 +15,7 @@ function App() {
         </div>
         <div className="col-md-6">
           <div className="image1" >
-            <img className='img1 rounded float-end' src='pictures/Img1.png' alt="img" />
+            <img className='img1 float-end' src='pictures/Img1.png' alt="img" />
           </div>
         </div>
       </div>
@@ -76,11 +76,56 @@ function App() {
           </div>
         </div>
       </div>
+
       <div className='text2'>
         <h2>ALWAYS GUIDED BY OUR VALUES</h2>
         <hr className='line2' />
       </div>
 
+      <div className="image-gallery2">
+        <div className="row">
+          <div className="col-md-2">
+            <div className="image-container2 green">
+              <div className="title">
+                <p>Imagination</p>
+              </div>
+              <img className='center-icon' src='pictures/girl1.png' alt="icon" />
+            </div>
+          </div>
+          <div className="col-md-2">
+            <div className="image-container2 blue">
+              <div className="title">
+                <p>Imagination</p>
+              </div>
+              <img className='center-icon' src='pictures/girl1.png' alt="icon" />
+            </div>
+          </div>
+          <div className="col-md-2">
+            <div className="image-container2 red">
+              <div className="title">
+                <p>Imagination</p>
+              </div>
+              <img className='center-icon' src='pictures/girl1.png' alt="icon" />
+            </div>
+          </div>
+          <div className="col-md-2">
+            <div className="image-container2 yellow2">
+              <div className="title">
+                <p>Imagination</p>
+              </div>
+              <img className='center-icon' src='pictures/girl1.png' alt="icon" />
+            </div>
+          </div>
+          <div className="col-md-2">
+            <div className="image-container2 orange">
+              <div className="title">
+                <p>Imagination</p>
+              </div>
+              <img className='center-icon' src='pictures/girl1.png' alt="icon" />
+            </div>
+          </div>
+        </div>
+      </div>
     </Container>
   );
 }

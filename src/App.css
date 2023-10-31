@@ -1,31 +1,34 @@
-.text1{
-  margin-left: 120px;
-  margin-top: 50px;
+.container {
+  margin: 20px;
+}
+
+.text1 {
+  margin: auto;
   color: #282896;
   font-size: 18px;
   text-align: justify;
 }
 
-.img1{
-  margin-top: 50px;
+.img1 {
+  margin: auto;
 }
 
-.text2{
+.text2 {
   text-align: center;
   margin-top: 10px;
   color: #282896;
 }
 
-.line1{
-  width:10%;
+.line1 {
+  width: 10%;
   border-width: 10px;
   margin: auto;
   color: rgb(240, 13, 13);
   opacity: 1;
 }
 
-.line2{
-  width:18%;
+.line2 {
+  width: 18%;
   border-width: 10px;
   margin: auto;
   color: rgb(240, 13, 13);
@@ -43,36 +46,59 @@
   margin-right: 200px;
 }
 
+.image-gallery2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
-  align-items: center; 
-  height: 120px; 
+  align-items: center;
+  height: 120px;
   width: 120px;
 }
-.green{
+
+
+
+.title {
+  color: #FFD700;
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+
+.green {
   background-color: #00FFBF;
 
 }
-.yellow{
+
+.yellow {
   background-color: #FFBF00;
 }
+.yellow2 {
+  background-color: #FFBF00;
+  color: #00B9E8;
+}
 
-.red{
+.red {
   background-color: #FF0800;
 }
 
-.blue{
+.blue {
   background-color: #00B9E8;
 }
 
-.orange{
+.orange {
   background-color: #ffa500;
 }
 
-.purple{
+.purple {
   background-color: #9966CC;
 }
+
 .center-icon {
   max-width: 100%;
 }
