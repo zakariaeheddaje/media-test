@@ -95,7 +95,7 @@ function App() {
           <div className="col-md-2">
             <div className="image-container2 blue">
               <div className="title">
-                <p>Imagination</p>
+                <p>Excellence</p>
               </div>
               <img className='center-icon' src='pictures/girl1.png' alt="icon" />
             </div>
@@ -103,7 +103,7 @@ function App() {
           <div className="col-md-2">
             <div className="image-container2 red">
               <div className="title">
-                <p>Imagination</p>
+                <p>care</p>
               </div>
               <img className='center-icon' src='pictures/girl1.png' alt="icon" />
             </div>
@@ -111,7 +111,7 @@ function App() {
           <div className="col-md-2">
             <div className="image-container2 yellow2">
               <div className="title2">
-                <p>Imagination</p>
+                <p>Curiosity</p>
               </div>
               <img className='center-icon' src='pictures/girl1.png' alt="icon" />
             </div>
@@ -119,7 +119,7 @@ function App() {
           <div className="col-md-2">
             <div className="image-container2 orange">
               <div className="title">
-                <p>Imagination</p>
+                <p>Creativity</p>
               </div>
               <img className='center-icon' src='pictures/girl1.png' alt="icon" />
             </div>
