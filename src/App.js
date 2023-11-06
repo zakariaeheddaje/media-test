@@ -110,7 +110,7 @@ function App() {
           </div>
           <div className="col-md-2">
             <div className="image-container2 yellow2">
-              <div className="title">
+              <div className="title2">
                 <p>Imagination</p>
               </div>
               <img className='center-icon' src='pictures/girl1.png' alt="icon" />
